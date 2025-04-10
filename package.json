@@ -1,0 +1,22 @@
+{
+  "name": "bulk-qr-generator",
+  "version": "1.0.0",
+  "description": "generate custom bulk sequenced qr codes",
+  "main": "index.ts",
+  "author": "Shriram Khandbahale",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pdfkit": "^0.16.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pdfkit": "^0.13.9",
+    "@types/qrcode": "^1.5.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
